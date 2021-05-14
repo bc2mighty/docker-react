@@ -18,6 +18,9 @@ function App() {
           >
             Learn React
         </a>
+        <p className="App-intro">
+          New Block Added
+        </p>
     </div>
   );
 }
