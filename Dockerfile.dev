@@ -24,3 +24,4 @@ CMD ["npm", "run", "start"]
 # docker exec -it {container_id} sh
 # then run the test in the directory with the command
 # npm run test
+# or use docker run {container_id} npm run test -- --coverage
