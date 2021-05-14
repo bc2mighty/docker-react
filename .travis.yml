@@ -19,7 +19,6 @@ deploy:
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
-  secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+  secret_access_key: $AWS_SECRET_KEY
 
 # region: "dockerreact-env.eba-z35pp3sm.eu-west-1.elasticbeanstalk.com/"
