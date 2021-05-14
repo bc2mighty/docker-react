@@ -19,5 +19,8 @@ CMD ["npm", "run", "start"]
 # docker run -it container_id npm run test
 # To run the test live
 # Option 1
-# docker exec -it 137cb607205c npm run test
+# docker exec -it {container_id} npm run test
 # Option 2
+# docker exec -it {container_id} sh
+# then run the test in the directory with the command
+# npm run test
