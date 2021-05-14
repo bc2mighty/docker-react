@@ -11,3 +11,13 @@ CMD ["npm", "run", "start"]
 
 # This is to automate rebuilding containers using volumes
 # docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app ed72627d7df0
+# Use this to build the container
+# docker build -f Dockerfile.dev .
+# To run the test
+# docker run container_id npm run test
+# or use
+# docker run -it container_id npm run test
+# To run the test live
+# Option 1
+# docker exec -it 137cb607205c npm run test
+# Option 2
